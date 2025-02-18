@@ -1,0 +1,28 @@
+Êþº¾   = }
+       java/lang/Object <init> ()V   java/util/Scanner	 
+ 
+   
+  java/lang/System in Ljava/io/InputStream;
+      (Ljava/io/InputStream;)V   org/lee/com/Calculator
+  	 
+    out Ljava/io/PrintStream;  Welcome to the Calculator!
+        java/io/PrintStream  println (Ljava/lang/String;)V " $Enter the operation (add/multiply): 
+  $ %   print
+   ' ( ) next ()Ljava/lang/String;   + , - makeConcatWithConstants &(Ljava/lang/String;)Ljava/lang/String;
+   / 0 1  nextInt ()I  3 , 4 (I)Ljava/lang/String; 6 add
+ 8 9  : ; < java/lang/String equalsIgnoreCase (Ljava/lang/String;)Z
+  > 6 ? ([I)I  3 B multiply
+  D B ?  3 G <Invalid operation. Please choose either 'add' or 'multiply'.
+   I J  close  L org/lee/com/Main Code LineNumberTable LocalVariableTable this Lorg/lee/com/Main; main ([Ljava/lang/String;)V i I sum  product args [Ljava/lang/String; sc Ljava/util/Scanner; calc Lorg/lee/com/Calculator; 	operation Ljava/lang/String; count  numbers [I 
+StackMapTable  Y  b 
+SourceFile 	Main.java BootstrapMethods j
+ k l  m , n $java/lang/invoke/StringConcatFactory ˜(Ljava/lang/invoke/MethodHandles$Lookup;Ljava/lang/String;Ljava/lang/invoke/MethodType;Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/invoke/CallSite; p &How many numbers would you like to ?  r Enter  numbers: t 
+The sum is:  v The product is:  InnerClasses  y %java/lang/invoke/MethodHandles$Lookup  { java/lang/invoke/MethodHandles Lookup ! K           M   /     *· ±    N         O        P Q   	 R S  M  ©      µ»  Y² 	· L» Y· M² ¶ ² !¶ #+¶ &N² -º *  ¶ #+¶ .6¼
+:² º 2  ¶ 6¢ +¶ .O„§ÿí-5¶ 7™ ,¶ =6² º @  ¶ § ,-A¶ 7™ ,¶ C6² º E  ¶ § 
+² F¶ +¶ H±    N   Z    	 
+ 
+     #  (  4  :  @  M  W  `  f  o   w ! „ "  # ˜ $ ¥ % ¨ & ° ) ´ * O   \ 	 P  T U  w 
+ V U  ˜ 
+ W U    µ X Y   
+ ª Z [   ¢ \ ]  (  ^ _  : { ` U  @ u a b  c     ÿ P    d       8  e  ú      f    g h     i  o i  q i  s i  u w   
+  x z | 
